@@ -9,7 +9,7 @@ Clone this repository to your local computer. On the command line, you would use
 Create a new branch in the repository, named after your UzK-account: `git checkout -b "UZKACCOUNT"`
 
 ## Step 3: Download data
-For legal and size reasons, the data is not included in the repository. You need to download the two files `train.ft.txt.bz2` (440MB) and `test.ft.txt.bz2` (50MB) from Ilias instead, and store them in the folder `data` in the repository. The files contain reviews from amazon.com and accompanying sentiment scores (positive/negative). **Beware: Do not uncompress the files!**
+For legal and size reasons, the data is not included in the repository. You need to download the two files `train.ft.txt.bz2` (440MB) and `test.ft.txt.bz2` (50MB) from [Ilias](https://www.ilias.uni-koeln.de/ilias/goto_uk_fold_5575192.html) instead, and store them in the folder `data` in the repository. The files contain reviews from amazon.com and accompanying sentiment scores (positive/negative). **Beware: Do not uncompress the files!**
 
 The following function can be used to read in the texts. Feel free to include it in your repository (after having understood how it works).
 
